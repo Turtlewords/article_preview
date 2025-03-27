@@ -68,10 +68,12 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    
 }
 
 #container {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -185,7 +187,9 @@ main {
     gap: 1rem;
 }
 
-
+.icons:hover {
+    opacity: .7;
+}
 /* Typography */
 
 h1 {
@@ -217,12 +221,13 @@ img {
     border-radius: 100px;
 }
 
-#share-icon-toast-two {
+/* Prob delete */
+/* #share-icon-toast-two {
     width: 15px;
     background-color: var(--grey-500);
     padding: 10px;
     border-radius: 100px;
-}
+} */
 
 
 
@@ -235,7 +240,7 @@ img {
     }
 
     #container {
-        margin-top: 5rem;
+        margin-top: 2rem;
         flex-direction: row;
         width: 95%;
         
