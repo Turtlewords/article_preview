@@ -128,6 +128,10 @@ main {
     border-radius: 100px;
 }
 
+#share-icon:hover, #share-icon-toast:hover {
+    opacity: .7;
+}
+
 #share-icon-toast {
     background-color: var(--grey-400);
     padding: 10px;
@@ -149,7 +153,7 @@ main {
 }
 
 #toast-two {
-    display: flex;
+    display: none;
     position: absolute;
     background-color: var(--grey-900);
     padding: .5rem 0;
@@ -157,8 +161,8 @@ main {
     align-items: center;
     gap: 1.2rem;
     width: 260px;
-    top: -140px;
-    right: -130px;
+    top: -110px;
+    right: -112px;
     border-radius: 16px;
 }
 
@@ -255,7 +259,14 @@ img {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
 
+    main {
+        height: 50vh;
+    }
+
+    #drawers-box {
+        height: 50vh;
+    }
     
 }
