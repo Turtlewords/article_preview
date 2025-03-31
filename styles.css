@@ -247,7 +247,7 @@ img {
     }
 
     main {
-        height: 300px;
+        height: 315px;
         width: 65%;
     }
 
@@ -255,7 +255,7 @@ img {
 
         width: 35%;
         background-position: center left 18%;
-        height: 300px;
+        height: 315px;
         border-bottom-left-radius: 16px;
         border-top-right-radius: 0;
         
@@ -265,12 +265,12 @@ img {
 @media (min-width: 1024px) {
 
     main {
-        height: 38vh;
+        height: 275px;
         width: 65%;
     }
 
     #drawers-box {
-        height: 38vh;
+        height: 275px;
         width: 35%;
     }
     
