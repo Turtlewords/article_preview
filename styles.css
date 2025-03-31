@@ -68,12 +68,12 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     
 }
 
 #container {
-    margin-top: 2rem;
+    
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -243,7 +243,6 @@ img {
     }
 
     #container {
-        margin-top: 2rem;
         flex-direction: row;
         width: 95%;
         
@@ -270,12 +269,12 @@ img {
 @media (min-width: 1000px) {
 
     main {
-        height: 50vh;
+        height: 44vh;
         width: 60%;
     }
 
     #drawers-box {
-        height: 50vh;
+        height: 44vh;
         width: 40%;
     }
     
