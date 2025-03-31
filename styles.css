@@ -40,7 +40,7 @@
 
 .text-two-med {
     font-family: "Manrope", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: .12%;
@@ -49,7 +49,7 @@
 
 .text-two-bold {
     font-family: "Manrope", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 13px;
     line-height: 1.4;
     letter-spacing: .12%;
@@ -103,7 +103,7 @@ main {
 
 
 #text {
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
     width: 85%;
     
     
@@ -113,9 +113,9 @@ main {
 #info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 1rem 0;
-    
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    width: 85%;
     
 }
 
@@ -145,7 +145,7 @@ main {
 #toast {
     display: none;
     background-color: var(--grey-900);
-    padding: 1rem 0;
+    padding: .65rem 0;
     justify-content: space-around;
     align-items: center;
 
@@ -200,13 +200,13 @@ h1 {
 }
 
 
-#share {
+#share, #share-two {
     color: var(--grey-400);
     
 }
 
 #text p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 #name-date p {
@@ -220,7 +220,7 @@ img {
 }
 
 #portrait {
-    width: 50px;
+    width: 40px;
     border-radius: 100px;
 }
 
@@ -246,7 +246,7 @@ img {
         flex-direction: row;
         width: 95%;
         
-        max-width: 800px;
+        max-width: 750px;
     }
 
     main {
@@ -269,13 +269,13 @@ img {
 @media (min-width: 1000px) {
 
     main {
-        height: 44vh;
-        width: 60%;
+        height: 38vh;
+        width: 65%;
     }
 
     #drawers-box {
-        height: 44vh;
-        width: 40%;
+        height: 38vh;
+        width: 35%;
     }
     
 }
